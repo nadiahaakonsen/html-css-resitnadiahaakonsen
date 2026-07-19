@@ -1,5 +1,6 @@
 body {
     background-color: #FFFFFF;
+    font-family: Nunito;
 }
 
 .header-nav {
@@ -9,7 +10,7 @@ body {
     justify-content: flex-start;
 }
 
-.nav-logo {
+.nav-logo img {
     height: 30px;
     width: auto;
     background-color: #333333
@@ -21,14 +22,44 @@ nav {
 }
 
 nav a {
-    display: block;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 15px 20px;
 
     &:hover {
         text-decoration: underline;
     }
+}
+
+.header-nav {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.hero-image img {
+    height: 300px;
+    width: auto;
+}
+
+.hero-image-aboutus img {
+    height: 500px;
+    width: auto;
+}
+
+.coming-soon img {
+    height: 500px;
+    width: auto;
+}
+
+.join-and-plant-image img {
+    height: 200px;
+    width: auto;
+}
+
+.our-team-image img {
+    height: 200px;
+    width: auto;
 }
 
 footer {
@@ -39,7 +70,7 @@ footer {
     justify-content: space-between;
 }
 
-.footer-logo {
-    height: 10px;
+.footer-logo img {
+    height: 30px;
     width: auto;
 }
